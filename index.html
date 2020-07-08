@@ -1,0 +1,258 @@
+<html>
+
+ <head>
+   
+   <title>Horsti Designer</title>
+
+   <style>
+     @media(max-width:600px){}
+
+     body{
+       font-family:Trattatello;
+       margin:0px;
+       background:#FFFFF;
+     }
+
+      h1 {
+         color:black;
+         text-align:center;
+         font-size: 30px;
+       }
+ 
+      .Meutrabalho {
+         color:black;
+         text-align:center;
+         font-size: 30px; 
+      }
+      p {
+         text-align:center;
+         font-size: 20px;
+        }
+
+      .sobran{
+        height:360px;
+        border-radius: 360px;
+      }
+
+      .so{
+        border-radius:360px;
+        height:280px;
+      }
+
+      .make{
+        border-radius:360px;
+        height:280px;
+      }
+
+      .whats{
+        height:100px;
+      }
+
+      .insta{
+        height:100px;
+      }
+
+      .menu{
+        text-align:right;
+        padding-right:40px;
+       }
+
+      .linkmenu{
+        text-decoration:none;
+        color:#dab3ff;
+        margin-left: 20px;
+      }
+
+       .linkmenu:hover{
+        color:black;
+      }
+
+      .linkwhats:hover{
+        color:black;
+      }
+
+       .linkinsta:hover{
+        color:black;
+      }
+      
+
+      .linkwhats{
+        color:white;
+        background:#2eb82e;
+        padding-bottom:20px;
+        padding-top:20px;
+        padding-right:20px;
+        padding-left:20px;
+        border-radius:60px;
+        margin-left:40px;
+      }
+
+      .linkinsta{
+        color:white;
+        background: #ff1a1a;
+        padding-bottom:20px;
+        padding-top:20px;
+        padding-right:20px;
+        padding-left:20px;
+        border-radius:60px;
+        margin-left:40px;
+      }
+
+      .Mt {
+        align-items:top;
+        padding-top:60px;
+        padding-bottom:60px;
+      }
+
+      .container{
+        display:flex;
+        justify-content:space-evenly;
+        align-items:center;
+        padding-top:30px;
+        padding-bottom:200;
+        flex-wrap:wrap;
+      }
+
+      .container2{
+        display:flex;
+        justify-content:space-evenly;
+        align-items:center;
+        margin-left:50px;
+        flex-wrap:wrap;
+      }
+      
+      .cax1
+      {
+        background:#ac3973;
+        height: 600px;
+        padding-top:30px;
+        text-align:center;
+      }
+      
+      .cax2{
+        background:#ffcce5;
+        text-align:center;
+        align-items:center;
+      
+
+      }
+
+      .cax3{
+        background: url(im.jpg);
+        height: 1900px;
+        text-align:center;
+      }
+
+      .cax4{
+        background:#ac3973;
+        height:300px;
+        padding-top:30px;
+        text-align:center;
+       }
+
+      .cax21{
+        background:#ac3973;
+        height:600px;
+        border-radius: 100px;
+        width:400px;
+        padding-top:100px;
+      }
+
+      .cax22{
+        background:#ac3973;
+        height:600px;
+        border-radius: 100px;
+        width:400px;
+        padding-top:100px;
+      }
+      
+      .cax41{
+         padding-top:40px;
+         flex-wrap:wrap;
+      }
+
+      .cax42{
+        padding-top:40px;
+         flex-wrap:wrap;
+      }
+       </style>
+
+   </head>
+
+   <body>
+       <div class="cax1">         
+          <div class= "menu">
+              <a href="https://www.facebook.com/larissa.horsti" class="linkmenu"> Sobre mim</a>
+           
+              <a href="#Meu trabalho" class="linkmenu">Meu trabalho</a>
+            
+              <a href="#Fale comigo!"class="linkmenu">Fale comigo!</a>
+             
+              <a href="#Fotos"class="linkmenu">Fotos</a>
+
+          </div>
+         
+          <h1>Larissa Horsti<br>
+             Designer de Sobrancelhas</h1>
+          <p>Bem vindo(a)</p>
+     
+          <img src="sobran.jpg" class="sobran" onclick= "anoitecer()">
+       </div>
+         
+
+
+       <div class="cax2" id="Meu trabalho"> 
+
+         <h2 class="Mt">Meu trabalho</h2>
+          
+         <div class="container">
+
+          <div class= cax21>  
+             <img src="make.jpg" class="make">
+             <h3>Maquiagem</h3>
+             <p>- Maquiagens para eventos<br>
+                - Maquiagens em debutantes<br>
+                - Maquiagens em formandas<br>
+             </p>  
+           </div>
+          
+           <div class= cax22>  
+             <img src="so.jpg" class="so">
+             <h3>Sobrancelha</h3>
+             <p> - Designer comum <br>
+                 - Designer com cera <br>
+                 - Henna
+             </p>
+           </div>
+
+       </div>
+
+       <div class="cax3" id="Fotos"> 
+       </div>
+
+       <div class="cax4" id="Fale comigo!">
+          <h1></h1>
+          <div class= "container2">
+             
+             <div class="cax41">
+               <img src="whatsapp.png" class="whats">
+               <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5532998043950" class="linkwhats">Me mande um WhatsApp</a>
+             </div>
+
+             <div class="cax42">
+               <img src="insta.png" class="insta">
+               <a href="https://www.instagram.com/larissahorsti/" class="linkinsta">Fale comigo pelo Instagram</a>
+           
+            </div>
+          </div>
+       </div>
+   
+    <script> function anoitecer() {
+      document.body.style.background= "#33333";
+      document.body.style.ci
+    }
+    </script>
+
+  </body>
+ 
+</html>
